@@ -14,6 +14,13 @@ void main() {
           image: AssetImage('images/I_am_poor_app_icon.png'),
         ),
       ),
+      bottomNavigationBar: BottomNavigationBar(
+        items: const <BottomNavigationBarItem>[
+          BottomNavigationBarItem(icon: Icon(Icons.home), title: Text('home')),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.school), title: Text('school')),
+        ],
+      ),
     ),
   ));
 }
